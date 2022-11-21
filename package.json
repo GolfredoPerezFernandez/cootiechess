@@ -43,7 +43,8 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
+    "test": "craco test",    
+    "vercel-build": "yarn global add node-gyp",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
